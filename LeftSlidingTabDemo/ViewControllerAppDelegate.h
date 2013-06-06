@@ -8,12 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@class ViewControllerViewController;
+@class LoginViewController;
 
 @interface ViewControllerAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) ViewControllerViewController *viewController;
 
 @end

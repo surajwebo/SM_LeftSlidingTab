@@ -16,8 +16,8 @@
 		6977058B1760967C007FDC9C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6977058A1760967C007FDC9C /* Default.png */; };
 		6977058D1760967C007FDC9C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6977058C1760967C007FDC9C /* Default@2x.png */; };
 		6977058F1760967C007FDC9C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6977058E1760967C007FDC9C /* Default-568h@2x.png */; };
-		697705921760967C007FDC9C /* ViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697705911760967C007FDC9C /* ViewControllerViewController.m */; };
-		697705951760967C007FDC9C /* ViewControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 697705931760967C007FDC9C /* ViewControllerViewController.xib */; };
+		6977059F17609736007FDC9C /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6977059C17609736007FDC9C /* TabViewController.m */; };
+		697705A117609736007FDC9C /* TabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6977059E17609736007FDC9C /* TabViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +34,9 @@
 		6977058A1760967C007FDC9C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6977058C1760967C007FDC9C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6977058E1760967C007FDC9C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		697705901760967C007FDC9C /* ViewControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerViewController.h; sourceTree = "<group>"; };
-		697705911760967C007FDC9C /* ViewControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerViewController.m; sourceTree = "<group>"; };
-		697705941760967C007FDC9C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewControllerViewController.xib; sourceTree = "<group>"; };
+		6977059B17609736007FDC9C /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		6977059C17609736007FDC9C /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		6977059E17609736007FDC9C /* TabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +85,9 @@
 			children = (
 				697705871760967C007FDC9C /* ViewControllerAppDelegate.h */,
 				697705881760967C007FDC9C /* ViewControllerAppDelegate.m */,
-				697705901760967C007FDC9C /* ViewControllerViewController.h */,
-				697705911760967C007FDC9C /* ViewControllerViewController.m */,
-				697705931760967C007FDC9C /* ViewControllerViewController.xib */,
+				6977059B17609736007FDC9C /* TabViewController.h */,
+				6977059C17609736007FDC9C /* TabViewController.m */,
+				6977059E17609736007FDC9C /* TabViewController.xib */,
 				6977057F1760967B007FDC9C /* Supporting Files */,
 			);
 			path = LeftSlidingTabDemo;
@@ -163,7 +163,7 @@
 				6977058B1760967C007FDC9C /* Default.png in Resources */,
 				6977058D1760967C007FDC9C /* Default@2x.png in Resources */,
 				6977058F1760967C007FDC9C /* Default-568h@2x.png in Resources */,
-				697705951760967C007FDC9C /* ViewControllerViewController.xib in Resources */,
+				697705A117609736007FDC9C /* TabViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +176,7 @@
 			files = (
 				697705851760967B007FDC9C /* main.m in Sources */,
 				697705891760967C007FDC9C /* ViewControllerAppDelegate.m in Sources */,
-				697705921760967C007FDC9C /* ViewControllerViewController.m in Sources */,
+				6977059F17609736007FDC9C /* TabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +189,6 @@
 				697705821760967B007FDC9C /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		697705931760967C007FDC9C /* ViewControllerViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				697705941760967C007FDC9C /* en */,
-			);
-			name = ViewControllerViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

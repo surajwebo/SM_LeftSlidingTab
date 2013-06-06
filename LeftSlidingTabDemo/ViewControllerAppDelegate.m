@@ -8,7 +8,7 @@
 
 #import "ViewControllerAppDelegate.h"
 
-#import "ViewControllerViewController.h"
+#import "TabViewController.h"
 
 @implementation ViewControllerAppDelegate
 
@@ -16,8 +16,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ViewControllerViewController alloc] initWithNibName:@"ViewControllerViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    TabViewController *tabVC= [[TabViewController alloc] initWithNibName:@"TabViewController" bundle:nil];
+    self.window.rootViewController = tabVC;
     [self.window makeKeyAndVisible];
     return YES;
 }
